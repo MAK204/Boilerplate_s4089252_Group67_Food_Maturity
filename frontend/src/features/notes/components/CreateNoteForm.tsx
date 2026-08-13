@@ -36,9 +36,7 @@ export function CreateNoteForm() {
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-3 rounded-lg border p-4">
       <div className="space-y-1.5">
-        <label htmlFor="title" className="text-sm font-medium">
-          Title
-        </label>
+        <label htmlFor="title" className="text-sm font-medium">Title</label>
         <input
           id="title"
           type="text"
@@ -56,9 +54,7 @@ export function CreateNoteForm() {
       </div>
 
       <div className="space-y-1.5">
-        <label htmlFor="body" className="text-sm font-medium">
-          Body
-        </label>
+        <label htmlFor="body" className="text-sm font-medium">Body</label>
         <textarea
           id="body"
           rows={3}
